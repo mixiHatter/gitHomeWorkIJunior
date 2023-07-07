@@ -12,20 +12,21 @@ namespace minimalDegree
         {
             int degree = 2;
             Random random = new Random();
-            int minDegree = 4;
+            int minNumber = 4;
             int maxDegree = 600000000;
-            int number = random.Next(minDegree, maxDegree);
-            int count = 1;
+            int number = random.Next(minNumber, maxDegree);
+            int countDegree = 2;
+            int totalNumber = 4;
 
-            while (degree <= number)
+            while (totalNumber <= number)
             {
-                degree += degree;
-                count++;
+                totalNumber *= degree;
+                countDegree++;
             }
 
             Console.WriteLine($"заданное число: {number}");
-            Console.WriteLine($"степень: {count}");
-            Console.WriteLine($"2 в найденной степени: {degree}");
+            Console.WriteLine($"степень: {countDegree}");
+            Console.WriteLine($"{degree} в найденной степени: {totalNumber}");
             Console.ReadKey();
         }
     }

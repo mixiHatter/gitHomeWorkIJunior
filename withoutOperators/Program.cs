@@ -12,18 +12,18 @@ namespace withoutOperators
         static void Main(string[] args)
         {
             int numberMin = 1;
-            int numberMax = 28;
+            int numberMax = 27;
             int minNumberCheck = 100;
             int maxNumberCheck = 999;
             int count = 0;
             Random random = new Random();
-            int N = random.Next(numberMin, numberMax);
+            int number = random.Next(numberMin, numberMax +1);
 
-            Console.WriteLine($"Число N = {N}");
+            Console.WriteLine($"Число N = {number}");
 
             for(int i = minNumberCheck; i <= maxNumberCheck; i += 1)
             {
-                for (int j = N; j <= maxNumberCheck; j += N)
+                for (int j = number; j <= maxNumberCheck; j += number)
                 {
                     if (j == i)
                     {
