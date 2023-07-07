@@ -15,7 +15,7 @@ namespace secretMessage
             string userInput;
             int numberOfTries = 3;
 
-            for (numberOfTries = 3; numberOfTries > 0; numberOfTries--)
+            for (int i = numberOfTries; i > 0; i--)
             {
                 Console.WriteLine("Введите пароль: ");
                 userInput = Console.ReadLine();

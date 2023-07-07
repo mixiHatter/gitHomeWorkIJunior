@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "withoutOperators", "without
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "minimalDegree", "minimalDegree\minimalDegree.csproj", "{C0DA3E55-5DA2-4EB9-8CF0-0462F9D8525B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "brackets", "brackets\brackets.csproj", "{906256FC-0D88-4B4A-808E-6BAD9CF1231C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C0DA3E55-5DA2-4EB9-8CF0-0462F9D8525B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0DA3E55-5DA2-4EB9-8CF0-0462F9D8525B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0DA3E55-5DA2-4EB9-8CF0-0462F9D8525B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{906256FC-0D88-4B4A-808E-6BAD9CF1231C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{906256FC-0D88-4B4A-808E-6BAD9CF1231C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{906256FC-0D88-4B4A-808E-6BAD9CF1231C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{906256FC-0D88-4B4A-808E-6BAD9CF1231C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
