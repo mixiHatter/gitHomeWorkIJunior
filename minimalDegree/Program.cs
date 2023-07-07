@@ -11,13 +11,15 @@ namespace minimalDegree
         static void Main(string[] args)
         {
             int degree = 2;
-            Random rand = new Random();
-            int number = rand.Next(4, 101);
+            Random random = new Random();
+            int minDegree = 4;
+            int maxDegree = 600000000;
+            int number = random.Next(minDegree, maxDegree);
             int count = 1;
 
-            for(int i = degree; i <= number; i += i)
+            while (degree <= number)
             {
-                degree += i;
+                degree += degree;
                 count++;
             }
 
