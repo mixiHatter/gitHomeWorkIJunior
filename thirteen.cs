@@ -17,7 +17,6 @@ namespace forTestHomeWork
             const string MenuSetBackground = "4";
             const string MenuSetFont = "5";
             const string MenuExit = "6";
-            const string MenuPasswordExit = "exit";
 
             const string ColorWhite = "1";
             const string ColorGreen = "2";
@@ -25,6 +24,8 @@ namespace forTestHomeWork
             const string ColorBlack = "4";
             const string ColorBlue = "5";
             const string ColorReset = "6";
+            
+            const string MenuPasswordExit = "exit";
 
             string userName = "";
             string password = "";
