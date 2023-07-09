@@ -15,24 +15,25 @@ namespace withoutOperators
             int numberMax = 27;
             int minNumberCheck = 100;
             int maxNumberCheck = 999;
-            int count = 0;
+            int countNumbers = 0;
             Random random = new Random();
             int number = random.Next(numberMin, numberMax +1);
 
             Console.WriteLine($"Число N = {number}");
 
-            for(int i = minNumberCheck; i <= maxNumberCheck; i += 1)
-            {
-                for (int j = number; j <= maxNumberCheck; j += number)
+            for(int i = number; i <= maxNumberCheck; i += number)
+            { 
+                if (i > minNumberCheck)
                 {
-                    if (j == i)
-                    {
-                        count++;
-                    }
+                    countNumbers++;
+                }
+                else
+                {
+                    continue;
                 }
             }
 
-            Console.WriteLine($"Количество трёхзначных натуральных чисел кратны N = {count}");
+            Console.WriteLine($"Количество трёхзначных натуральных чисел кратны N = {countNumbers}");
             Console.ReadKey();
         }
     }
