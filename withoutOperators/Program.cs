@@ -23,7 +23,7 @@ namespace withoutOperators
 
             for(int i = number; i <= maxNumberCheck; i += number)
             { 
-                if (i > minNumberCheck)
+                if (i >= minNumberCheck)
                 {
                     countNumbers++;
                 }
