@@ -27,10 +27,6 @@ namespace withoutOperators
                 {
                     countNumbers++;
                 }
-                else
-                {
-                    continue;
-                }
             }
 
             Console.WriteLine($"Количество трёхзначных натуральных чисел кратны N = {countNumbers}");
